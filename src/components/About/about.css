@@ -1,0 +1,60 @@
+.company {
+    margin-top: 40px;
+    text-align: right;
+    font-weight: 500;
+}
+
+.company h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.company p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.icon {
+    columns: 3;
+}
+
+.image img {
+    border-radius: 80px;
+    padding: 30px;
+    width: 500px;
+}
+
+.title h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.title h2 {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(229, 229, 4);
+}
+
+.author {
+    font-style: italic;
+    color: white;
+}
+
+.off a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background:#ffe926;
+    color: #000;
+    border-radius: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+}

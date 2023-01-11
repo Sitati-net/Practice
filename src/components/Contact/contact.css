@@ -1,0 +1,155 @@
+#contact h5 {
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+#contact h2 {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+#contact span {
+    color: #c7f21b;
+    font-size: 4rem;
+
+}
+
+.name h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.phone {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 50% 58%;
+    gap: 12%;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.option {
+    background: rgb(73, 180, 230);
+    padding: 0.2rem;
+    border-radius: 2.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: transform .4s;
+}
+
+
+.iconic {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.juy {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.juy:hover {
+    color: #c7f21b;
+}
+.option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background:#ffe926;
+    color: #000;
+    border-radius: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.btn {
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 4px 20px;
+    border-radius: 20px;
+    transition: transform .4s;
+
+}
+.btn-primary {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background:#ffe926;
+    color: #000;
+    border-radius: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+        transform: scale(1.2);
+        color: black;
+}
+
+.btn:hover {
+    background: #0d5f0d;
+    color: black;
+    border-color: transparent;
+    transform: scale(1.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+@media  screen and (max-width: 1024px) {
+    .phone {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .phone {
+        width: var(--container-width-sm);
+    }
+}
+input, textarea {
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 1.5rem;
+    background: black;
+    resize: none;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 1024px) {
+    .phone {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .phone {
+            width:  var(--container-width-sm);
+    }
+}
