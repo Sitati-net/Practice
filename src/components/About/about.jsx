@@ -23,7 +23,6 @@ const About = () =>{
                 <img src={one} alt="cover" />
                 </div>
                 <div className="title">
-                <h1>BHANG</h1>
                 <h2>Weed makes you happy</h2>
                 </div>
                 <div className="off">
@@ -33,30 +32,17 @@ const About = () =>{
                   </div>
                   <div className="book">
                 <div className="image">
-                <img src={two} alt="cover" />
+                <img src={one} alt="cover" />
                 </div>
                 <div className="title">
-                <h1>BHANG</h1>
-                <h2>Weed makes you happy</h2>
+                 <h2>Weed makes you happy</h2>
                 </div>
                 <div className="off">
                     <h3>25% off</h3>
                     <a href="about">Place Order</a>
                       </div>
                   </div>
-                  <div className="book">
-                <div className="image">
-                <img src={three} alt="cover" />
-                </div>
-                <div className="title">
-                <h1>BHANG</h1>
-                <h2>Weed makes you happy</h2>
-                </div>
-                <div className="off">
-                    <h3>20% off</h3>
-                 <a href="about">Place Order</a>
-                      </div>
-                  </div>
+               
     </div>
     </div>
     )

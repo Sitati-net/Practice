@@ -18,9 +18,10 @@ const Contact = ( ) => {
   };
 
     return(
-    <><div className="name"><h1>Contact Me</h1></div>
-    <section id="contact">
+        <><div className="name"><h1>CONTACT ME</h1></div><section id="contact">
+
             <div className="phone">
+
                 <div className="options">
                     <article className="option">
                         <h4> Email</h4>

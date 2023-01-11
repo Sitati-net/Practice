@@ -16,12 +16,13 @@
 }
 
 .icon {
-    columns: 3;
+    columns: 2;
+    margin-left: 200px;
 }
 
 .image img {
-    border-radius: 80px;
-    padding: 30px;
+    border-radius: 60px;
+    padding: 40px 50px;
     width: 500px;
 }
 
