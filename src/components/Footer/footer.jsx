@@ -8,8 +8,7 @@ import {BsFillArrowUpCircleFill} from "react-icons/bs"
 const Footer = ( ) => {
     return (
         <footer>
-        <a href="Home" className="logo"></a>
-        <a href="Home"><BsFillArrowUpCircleFill /></a>
+        <a href="Home" className="logo"><BsFillArrowUpCircleFill /></a>
         <div className="soshi">
                 <a href="https://instagram.com"><FaInstagramSquare /></a>
                 <a href="https://github.com"><FaGithubSquare /></a>
