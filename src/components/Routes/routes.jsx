@@ -1,15 +1,16 @@
 import React from "react";
-import {Route, Switch} from "react-router-dom"
 import Feature from "../Feature/feature";
+import { BrowserRouter, Route } from "react-router-dom";
 
 const Routes = ({productItems} ) => {
     return(
         <div>
-            <Switch>
-                <Route path="/" exact>
+            <BrowserRouter>
+                <Routes>
+                <Route exact path="/" />
                     <Feature productItems={productItems}/>
-                </Route>
-            </Switch>
+                </Routes>
+            </BrowserRouter>
         </div>
     )
 }
